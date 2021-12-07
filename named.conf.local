@@ -6,3 +6,7 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "example.com" {
+    maestro de tipo;
+    archivo "/etc/bind/db.example.com";
+};
